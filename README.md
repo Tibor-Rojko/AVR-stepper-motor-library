@@ -7,4 +7,4 @@ Backwise turning i.e 23°
 
     sM_BW_Turn(23, 2);
 
-*where the period is a delay, between steps in a sequence
+        *where the period is a delay, between steps in a sequence
