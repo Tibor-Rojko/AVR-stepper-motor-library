@@ -13,7 +13,8 @@ int main(void)
 
     while (1) 
     {
-		// turn around the stepper - 360°
+	   	/*** TEST PROGRAM ***/
+		// turn around the stepper - 360Â°
 		sM_CW_Turn(45, 6);
 		_delay_ms(3000);
 		sM_CW_Turn(45, 6);
@@ -24,7 +25,7 @@ int main(void)
 
 		_delay_ms(5000);
 
-		// turn around the stepper, backward - 360°
+		// turn around the stepper, backward - 360Â°
 		sM_BW_Turn(360, 2);
 
 		_delay_ms(5000);
